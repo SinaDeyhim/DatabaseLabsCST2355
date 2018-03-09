@@ -1,0 +1,2 @@
+SELECT AVG(InsuredValue) AS AVG_InsuredValue
+FROM SHIPMENT;

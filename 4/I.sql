@@ -1,0 +1,2 @@
+SELECT AVG(TotalAmount) AS AVG_TotalAmout
+FROM INVOICE;

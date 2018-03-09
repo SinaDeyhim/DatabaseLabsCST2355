@@ -1,0 +1,6 @@
+SELECT LastName, FirstName, Phone
+FROM CUSTOMER
+INNER JOIN INVOICE 
+ON CUSTOMER.CustomerID=INVOICE.CustomerNumber
+WHERE TotalAmount>100
+ORDER BY LastName ASC, FirstName DESC; 
